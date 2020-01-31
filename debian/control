@@ -1,0 +1,12 @@
+Source: ros-turbulent-ament-cmake-ros
+Section: misc
+Priority: extra
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), ros-turbulent-ament-cmake, ros-turbulent-ament-lint-auto, ros-turbulent-ament-lint-common, ros-turbulent-domain-coordinator, ros-turbulent-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-turbulent-ament-cmake-ros
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-turbulent-ament-cmake, ros-turbulent-ament-cmake-gmock, ros-turbulent-ament-cmake-gtest, ros-turbulent-ament-cmake-pytest, ros-turbulent-domain-coordinator, ros-turbulent-ros-workspace
+Description: The ROS specific CMake bits in the ament buildsystem.
